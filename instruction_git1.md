@@ -76,5 +76,11 @@ git checkout <hash>
 
 git log --oneline --all
 
+## Возвращение обратно с коммита
+
+Чтобы вернуться обратно с коммита, нужно использовать команд:
+
+git checkout master
+
 
 
