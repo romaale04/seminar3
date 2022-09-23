@@ -98,5 +98,10 @@ git checkout master
 
     git branch <>
 
+## Слияние веток
+
+Для слияния веток используем команду:
+
+    merge
     
 
