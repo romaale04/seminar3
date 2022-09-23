@@ -96,5 +96,7 @@ git checkout master
 
 Для создания новой команды используем команду:
 
-    git branch
+    git branch <>
+
     
+
