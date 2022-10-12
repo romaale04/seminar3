@@ -9,7 +9,7 @@ int Prompt(string message)
 }
 bool ValidateNumber(int N)
 {
-    if (N < 10000 & N > 99999)
+    if (N < 10000 || N > 99999)
     {
         System.Console.WriteLine("Введено не пятизначное число");
         return false;
@@ -19,7 +19,7 @@ bool ValidateNumber(int N)
 
 int N = Prompt("Введите пятизначное число: ");
 int OldNumber = N;
-int NewNumber =0;
+int NewNumber = 0;
 if(!ValidateNumber(N))
 {
     return;
